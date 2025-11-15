@@ -1,0 +1,34 @@
+###############
+# Node Modules
+###############
+node_modules/
+npm-debug.log
+
+###############
+# Environment Files
+###############
+.env
+.env.local
+.env.production
+
+###############
+# Backend Artifacts
+###############
+/backend/db/
+/backend/uploads/
+/backend/logs/
+
+###############
+# Frontend Build Files
+###############
+/frontend/dist/
+/frontend/build/
+/frontend/.cache/
+
+###############
+# OS / Editor Files
+###############
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

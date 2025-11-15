@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "TechFest",
+    "description": "Annual technology festival.",
+    "date": "2025-01-10",
+    "image": "techfest.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Hackathon",
+    "description": "48-hour coding challenge.",
+    "date": "2025-02-05",
+    "image": "hackathon.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Workshop",
+    "description": "Hands-on learning session.",
+    "date": "2025-03-18",
+    "image": "workshop.jpg"
+  }
+]

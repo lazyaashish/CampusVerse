@@ -1,0 +1,14 @@
+[
+  {
+    "id": "c1",
+    "name": "Robotics Club",
+    "members": 24,
+    "about": "Robotics projects and competitions."
+  },
+  {
+    "id": "c2",
+    "name": "Dance Club",
+    "members": 30,
+    "about": "Performing arts and workshops."
+  }
+]

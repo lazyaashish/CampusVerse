@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head>
+  <meta name="assets-base" content="assets"><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Dashboard — CampusVerse</title><link rel="stylesheet" href="css/style.css"/></head><body>
+ <div class="container">
+  <header class="header"><div class="brand"><div class="logo">CV</div><div><div style="font-weight:800">CampusVerse</div><div class="muted">Dashboard</div></div></div><div class="actions"><button class="btn btn-ghost" onclick="openModal('<h3>Profile</h3><p class=\'muted\'>Profile modal ()</p>')">Profile</button><button class="btn btn-primary" onclick="openModal('<h3>Create Event</h3><p class=\'muted\'>Event creation modal ()</p>')">New Event</button></div></header>
+  <div class="layout">
+   <aside class="sidebar">
+    <div class="side-item active" data-page="overview">🏠 Overview</div>
+    <div class="side-item" data-page="events">🎉 Events</div>
+    <div class="side-item" data-page="notices">📜 Notices</div>
+    <div class="side-item" data-page="clubs">👥 Clubs</div>
+    <div class="side-item" data-page="complaints">🛠 Complaints</div>
+    <div class="side-item" data-page="feedback">💬 Feedback</div>
+   </aside>
+   <main class="content" id="mainContent">
+    <!-- dynamic content renders here -->
+   </main>
+  </div>
+  <footer style="margin-top:18px;color:var(--muted);text-align:center">CampusVerse • vFinal</footer>
+ </div>
+ <script src="js/app.js">
+function createEvent(){ const token = getToken(); if(!token){ alert('Not authenticated'); return; } const form = new FormData(); form.append('title', document.getElementById('et').value); form.append('date', document.getElementById('ed').value); form.append('description', document.getElementById('desc').value); const f = document.getElementById('img').files[0]; if(f) form.append('image', f); fetch(API + '/events', { method: 'POST', headers: { 'authorization': 'Bearer ' + token }, body: form }).then(r=>r.json()).then(j=>{ if(j.success){ alert('Event created'); load('overview'); } else { alert(j.error || 'Failed to create event'); } }).catch(e=>{ alert('Network or server error'); }); }
+</script>
+  <script src="js/image-loader.js"></script>
+</body></html>
