@@ -116,6 +116,3 @@ Visit:
 http://localhost:4000/api/health
 
 ---
-
-## 💬 Credits
-Developed by **Aashish Raj**
