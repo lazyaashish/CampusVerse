@@ -101,7 +101,6 @@ Reference filenames in:
 backend/data/events.json
 
 ---
-
 ## 📤 Upload Images via API (Optional)
 
 POST /api/events/upload
@@ -110,9 +109,6 @@ Example using cURL:
 curl -X POST http://localhost:4000/api/events/upload -F "image=@techfest.jpg"
 
 ---
-
 ## 🧪 Check Backend
 Visit:
 http://localhost:4000/api/health
-
----
