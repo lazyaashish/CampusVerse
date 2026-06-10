@@ -83,7 +83,7 @@ Server ready on port 4000
 Visit:
 http://localhost:4000
 
-Do NOT double-click index.html.
+Do NOT click index.html.
 
 ---
 
