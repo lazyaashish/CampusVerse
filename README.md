@@ -9,7 +9,7 @@ Built with a Node.js + Express backend and a static HTML/CSS/JS frontend served 
 ### 🖥 Frontend
 - Beautiful, modern dashboard UI  
 - Dynamic loading:
-  - Events  
+  - Upcoming events
   - Overview  
   - Notices  
   - Clubs  
