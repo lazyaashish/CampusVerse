@@ -24,7 +24,7 @@ Built with a Node.js + Express backend and a static HTML/CSS/JS frontend served 
 - JSON-based data storage  
 - Students:
   - Submit complaints  
-  - Submit feedback  
+  - Submit your feedback  
 - Admin:
   - View pending complaints  
   - Approve / Reject complaints  
