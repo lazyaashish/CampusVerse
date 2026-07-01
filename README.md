@@ -16,7 +16,7 @@ Built with a Node.js + Express backend and a static HTML/CSS/JS frontend served 
   - Complaints  
   - Feedback  
 - Automatic image loading using `data-img`  
-- Easy manual image replacement (upload any event image directly)
+- Easy manual image replacement (upload any event imageS )
 
 ### 🔥 Backend
 - Node.js + Express API  
