@@ -15,7 +15,7 @@ Built with a Node.js + Express backend and a static HTML/CSS/JS frontend served 
   - Clubs  
   - Complaints  
   - Feedback  
-- Automatic image loading using `data-img`  
+- Automatic image loading  `data-img`  
 - Easy manual image replacement (upload any event imageS )
 
 ### 🔥 Backend
